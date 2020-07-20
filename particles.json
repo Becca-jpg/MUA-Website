@@ -1,0 +1,39 @@
+{
+    "particles": {
+        "number": {
+            "value": 100
+        },
+        "color": {
+            "value": "#778899"
+        },
+        "shape": {
+            "type":"image",
+            "image": {
+               "src": "https://cdn3.iconfinder.com/data/icons/pyconic-icons-1-2/512/heart-outline-512.png" 
+            }
+        },
+        "size": {
+            "value": 10,
+            "random":true
+        },
+        "line_linked": {
+            "enable": true,
+            "opacity": 0.3
+        },
+        "move":{
+            "enable":true
+        }
+    },
+    "interactivity":{
+        "events":{
+            "onhover":{
+               "enable":true,
+               "mode": "grab"
+            },
+            "onclick":{
+                "enable":true,
+                "mode":"push"
+            }
+        }
+    }
+}
